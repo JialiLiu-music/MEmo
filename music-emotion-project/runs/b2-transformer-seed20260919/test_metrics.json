@@ -1,0 +1,22 @@
+{
+  "model": "b2_transformer",
+  "seed": 20260919,
+  "source_run_dir": "runs/b2-transformer-seed20260919",
+  "split": "test",
+  "test_metrics": {
+    "valence_ccc": 0.05568731083185412,
+    "valence_mae": 0.24461651680370172,
+    "valence_rmse": 0.2569246903061867,
+    "arousal_ccc": 0.02473304920325366,
+    "arousal_mae": 0.20599269593755404,
+    "arousal_rmse": 0.22079804092645644,
+    "ccc_mean": 0.040210180017553894,
+    "mae_mean": 0.22530460637062788,
+    "rmse_mean": 0.23886136561632157
+  },
+  "config": {
+    "evaluate_only": true,
+    "source_best_epoch": 7,
+    "source_evaluate_test": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "path": "/root/autodl-tmp/music-emotion-project/data/audio_wav/deam_0646.wav",
+  "bpm": 58,
+  "beats": [24.94,25.96,27.01,28.04,29.04,30.05,30.96,31.95,32.99,33.97,35.01,36.02,37.05,37.94,38.94,39.95,40.81,41.72,42.6],
+  "downbeats": [25.96,30.05,33.97,37.94,41.72],
+  "beat_positions": [4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.06,
+      "label": "start"
+    },
+    {
+      "start": 0.06,
+      "end": 23.95,
+      "label": "intro"
+    },
+    {
+      "start": 23.95,
+      "end": 44.93,
+      "label": "intro"
+    },
+    {
+      "start": 44.93,
+      "end": 45.07,
+      "label": "start"
+    }
+  ]
+}

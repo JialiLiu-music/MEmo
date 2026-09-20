@@ -1,0 +1,65 @@
+{
+  "model": "b2",
+  "seed": 20260903,
+  "best_epoch": 1,
+  "val_metrics": {
+    "valence_ccc": 0.2065543234348297,
+    "valence_mae": 0.2124411016702652,
+    "valence_rmse": 0.2342466413974762,
+    "arousal_ccc": 0.8013774156570435,
+    "arousal_mae": 0.16497905552387238,
+    "arousal_rmse": 0.1993015557527542,
+    "ccc_mean": 0.5039658695459366,
+    "mae_mean": 0.1887100785970688,
+    "rmse_mean": 0.2167740985751152
+  },
+  "test_metrics": null,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.211684972047806,
+      "val_metrics": {
+        "valence_ccc": 0.2065543234348297,
+        "valence_mae": 0.2124411016702652,
+        "valence_rmse": 0.2342466413974762,
+        "arousal_ccc": 0.8013774156570435,
+        "arousal_mae": 0.16497905552387238,
+        "arousal_rmse": 0.1993015557527542,
+        "ccc_mean": 0.5039658695459366,
+        "mae_mean": 0.1887100785970688,
+        "rmse_mean": 0.2167740985751152
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.0502860099077225,
+      "val_metrics": {
+        "valence_ccc": -0.01754453033208847,
+        "valence_mae": 0.5507130026817322,
+        "valence_rmse": 0.6129297614097595,
+        "arousal_ccc": 0.7562251091003418,
+        "arousal_mae": 0.20428305864334106,
+        "arousal_rmse": 0.24102754890918732,
+        "ccc_mean": 0.36934028938412666,
+        "mae_mean": 0.3774980306625366,
+        "rmse_mean": 0.4269786551594734
+      }
+    }
+  ],
+  "config": {
+    "project_root": "/root/autodl-tmp/music-emotion-project",
+    "manifest": "/root/autodl-tmp/music-emotion-project/data/manifest.csv",
+    "aligned_samples": "/root/autodl-tmp/music-emotion-project/data/aligned_samples.csv",
+    "feature_dir": "/root/autodl-tmp/music-emotion-project/data/features_mert95m",
+    "model": "b2",
+    "run_dir": "/root/autodl-tmp/music-emotion-project/runs/smoke-b2",
+    "seed": 20260903,
+    "device": "cuda",
+    "max_tracks": 10,
+    "max_epochs": 2,
+    "patience": 2,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0
+  }
+}

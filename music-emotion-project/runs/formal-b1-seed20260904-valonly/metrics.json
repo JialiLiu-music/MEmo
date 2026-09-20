@@ -1,0 +1,411 @@
+{
+  "model": "b1",
+  "seed": 20260904,
+  "best_epoch": 13,
+  "val_metrics": {
+    "valence_ccc": 0.005369588505521777,
+    "valence_mae": 0.1395365457621313,
+    "valence_rmse": 0.15324558053285844,
+    "arousal_ccc": 0.09805617486727575,
+    "arousal_mae": 0.17201707403986685,
+    "arousal_rmse": 0.18672888305398724,
+    "ccc_mean": 0.05171288168639876,
+    "mae_mean": 0.15577680990099907,
+    "rmse_mean": 0.16998723179342284
+  },
+  "test_metrics": null,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.0497246707479158,
+      "val_metrics": {
+        "valence_ccc": 0.02716807092280848,
+        "valence_mae": 0.16871060112551337,
+        "valence_rmse": 0.17693137713978369,
+        "arousal_ccc": 0.07465193895885962,
+        "arousal_mae": 0.2045069619292213,
+        "arousal_rmse": 0.21660527262476184,
+        "ccc_mean": 0.050910004940834044,
+        "mae_mean": 0.18660878152736732,
+        "rmse_mean": 0.19676832488227275
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.9389631706807349,
+      "val_metrics": {
+        "valence_ccc": 0.010550816921280667,
+        "valence_mae": 0.16894091852009296,
+        "valence_rmse": 0.17986034445704951,
+        "arousal_ccc": 0.07771574876612923,
+        "arousal_mae": 0.21294153277431765,
+        "arousal_rmse": 0.22693814156997588,
+        "ccc_mean": 0.04413328284370495,
+        "mae_mean": 0.1909412256472053,
+        "rmse_mean": 0.2033992430135127
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.8745319818456967,
+      "val_metrics": {
+        "valence_ccc": 0.03399190648023279,
+        "valence_mae": 0.165282548675614,
+        "valence_rmse": 0.17544844265907042,
+        "arousal_ccc": 0.0574207317117872,
+        "arousal_mae": 0.2176879651003307,
+        "arousal_rmse": 0.2316832314696043,
+        "ccc_mean": 0.04570631909601,
+        "mae_mean": 0.19148525688797235,
+        "rmse_mean": 0.20356583706433734
+      }
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.8618275837765799,
+      "val_metrics": {
+        "valence_ccc": 0.01621549639000272,
+        "valence_mae": 0.17450937941189734,
+        "valence_rmse": 0.1878097975446332,
+        "arousal_ccc": 0.025421499729066366,
+        "arousal_mae": 0.26704433271961825,
+        "arousal_rmse": 0.27990482891759566,
+        "ccc_mean": 0.020818498059534542,
+        "mae_mean": 0.2207768560657578,
+        "rmse_mean": 0.23385731323111442
+      }
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.8194320818616285,
+      "val_metrics": {
+        "valence_ccc": 0.007085075031124776,
+        "valence_mae": 0.15875444627336918,
+        "valence_rmse": 0.16892732223195414,
+        "arousal_ccc": 0.04795960909611876,
+        "arousal_mae": 0.20794010540891078,
+        "arousal_rmse": 0.2202308324556197,
+        "ccc_mean": 0.02752234206362177,
+        "mae_mean": 0.18334727584113997,
+        "rmse_mean": 0.1945790773437869
+      }
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.7559798177745607,
+      "val_metrics": {
+        "valence_ccc": -0.0012297828309989023,
+        "valence_mae": 0.1592648243231158,
+        "valence_rmse": 0.1750128138209543,
+        "arousal_ccc": 0.05156892723584127,
+        "arousal_mae": 0.20602918163903297,
+        "arousal_rmse": 0.2199077382683754,
+        "ccc_mean": 0.025169572202421185,
+        "mae_mean": 0.1826470029810744,
+        "rmse_mean": 0.19746027604466485
+      }
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.7395942178037431,
+      "val_metrics": {
+        "valence_ccc": -0.007440288070469133,
+        "valence_mae": 0.162051452804477,
+        "valence_rmse": 0.17335463243146096,
+        "arousal_ccc": 0.059948313371053025,
+        "arousal_mae": 0.20175614574503514,
+        "arousal_rmse": 0.21610915811071474,
+        "ccc_mean": 0.026254012650291945,
+        "mae_mean": 0.18190379927475606,
+        "rmse_mean": 0.19473189527108783
+      }
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.6979601118299696,
+      "val_metrics": {
+        "valence_ccc": 0.017511064186692238,
+        "valence_mae": 0.14707572085242118,
+        "valence_rmse": 0.16094410215174,
+        "arousal_ccc": 0.05725366044639339,
+        "arousal_mae": 0.20352883456695464,
+        "arousal_rmse": 0.21709711399049528,
+        "ccc_mean": 0.037382362316542815,
+        "mae_mean": 0.1753022777096879,
+        "rmse_mean": 0.18902060807111762
+      }
+    },
+    {
+      "epoch": 9,
+      "train_loss": 1.6844950107236702,
+      "val_metrics": {
+        "valence_ccc": 0.0025416093900980006,
+        "valence_mae": 0.1572359499311255,
+        "valence_rmse": 0.16943447556226485,
+        "arousal_ccc": 0.05256374555286921,
+        "arousal_mae": 0.21087309357620054,
+        "arousal_rmse": 0.2254616519616496,
+        "ccc_mean": 0.027552677471483607,
+        "mae_mean": 0.18405452175366302,
+        "rmse_mean": 0.19744806376195723
+      }
+    },
+    {
+      "epoch": 10,
+      "train_loss": 1.641358408663008,
+      "val_metrics": {
+        "valence_ccc": -0.0021177409892721524,
+        "valence_mae": 0.15502950813501112,
+        "valence_rmse": 0.16919474988695113,
+        "arousal_ccc": 0.058118088615892995,
+        "arousal_mae": 0.19961122699802922,
+        "arousal_rmse": 0.215400094707166,
+        "ccc_mean": 0.028000173813310422,
+        "mae_mean": 0.17732036756652017,
+        "rmse_mean": 0.19229742229705857
+      }
+    },
+    {
+      "epoch": 11,
+      "train_loss": 1.7047216950191393,
+      "val_metrics": {
+        "valence_ccc": 0.00715478763900577,
+        "valence_mae": 0.1412650744520849,
+        "valence_rmse": 0.1551911550904474,
+        "arousal_ccc": 0.06912678353593595,
+        "arousal_mae": 0.18956314015292353,
+        "arousal_rmse": 0.20404027895100654,
+        "ccc_mean": 0.03814078558747086,
+        "mae_mean": 0.1654141073025042,
+        "rmse_mean": 0.17961571702072698
+      }
+    },
+    {
+      "epoch": 12,
+      "train_loss": 1.617025392336978,
+      "val_metrics": {
+        "valence_ccc": 0.023521355976681074,
+        "valence_mae": 0.14676515818122896,
+        "valence_rmse": 0.15911481950071552,
+        "arousal_ccc": 0.07269856966494474,
+        "arousal_mae": 0.19180809412031405,
+        "arousal_rmse": 0.20715008543864374,
+        "ccc_mean": 0.0481099628208129,
+        "mae_mean": 0.1692866261507715,
+        "rmse_mean": 0.18313245246967963
+      }
+    },
+    {
+      "epoch": 13,
+      "train_loss": 1.6160768415364954,
+      "val_metrics": {
+        "valence_ccc": 0.005369588505521777,
+        "valence_mae": 0.1395365457621313,
+        "valence_rmse": 0.15324558053285844,
+        "arousal_ccc": 0.09805617486727575,
+        "arousal_mae": 0.17201707403986685,
+        "arousal_rmse": 0.18672888305398724,
+        "ccc_mean": 0.05171288168639876,
+        "mae_mean": 0.15577680990099907,
+        "rmse_mean": 0.16998723179342284
+      }
+    },
+    {
+      "epoch": 14,
+      "train_loss": 1.5808808621433046,
+      "val_metrics": {
+        "valence_ccc": -0.01061381146897592,
+        "valence_mae": 0.1467988970539262,
+        "valence_rmse": 0.15940198302268982,
+        "arousal_ccc": 0.07463609438303637,
+        "arousal_mae": 0.18097300286735257,
+        "arousal_rmse": 0.19602615782810795,
+        "ccc_mean": 0.032011141457030226,
+        "mae_mean": 0.1638859499606394,
+        "rmse_mean": 0.17771407042539888
+      }
+    },
+    {
+      "epoch": 15,
+      "train_loss": 1.5754986916565232,
+      "val_metrics": {
+        "valence_ccc": 0.017860640358600403,
+        "valence_mae": 0.15636456920014274,
+        "valence_rmse": 0.16785812029434788,
+        "arousal_ccc": 0.06761981427083694,
+        "arousal_mae": 0.16775995132423216,
+        "arousal_rmse": 0.18271785674075927,
+        "ccc_mean": 0.042740227314718666,
+        "mae_mean": 0.16206226026218745,
+        "rmse_mean": 0.1752879885175536
+      }
+    },
+    {
+      "epoch": 16,
+      "train_loss": 1.5635649921993415,
+      "val_metrics": {
+        "valence_ccc": 0.00039806648956366715,
+        "valence_mae": 0.1517635595894629,
+        "valence_rmse": 0.16326463150401269,
+        "arousal_ccc": 0.07459303287173351,
+        "arousal_mae": 0.1750027117950301,
+        "arousal_rmse": 0.19029224760109378,
+        "ccc_mean": 0.03749554968064859,
+        "mae_mean": 0.1633831356922465,
+        "rmse_mean": 0.17677843955255323
+      }
+    },
+    {
+      "epoch": 17,
+      "train_loss": 1.5601243807209864,
+      "val_metrics": {
+        "valence_ccc": 0.006284366742024318,
+        "valence_mae": 0.14880319035822345,
+        "valence_rmse": 0.15940970627050247,
+        "arousal_ccc": 0.07923955049538504,
+        "arousal_mae": 0.16032375311178546,
+        "arousal_rmse": 0.1766098553855573,
+        "ccc_mean": 0.04276195861870468,
+        "mae_mean": 0.15456347173500445,
+        "rmse_mean": 0.1680097808280299
+      }
+    },
+    {
+      "epoch": 18,
+      "train_loss": 1.5561751710871856,
+      "val_metrics": {
+        "valence_ccc": -0.019374408806118393,
+        "valence_mae": 0.150364687125529,
+        "valence_rmse": 0.16266302668279217,
+        "arousal_ccc": 0.05865029056815641,
+        "arousal_mae": 0.184269709813018,
+        "arousal_rmse": 0.1995292851521123,
+        "ccc_mean": 0.019637940881019007,
+        "mae_mean": 0.1673171984692735,
+        "rmse_mean": 0.18109615591745223
+      }
+    },
+    {
+      "epoch": 19,
+      "train_loss": 1.4914523764616914,
+      "val_metrics": {
+        "valence_ccc": -0.007856472269322108,
+        "valence_mae": 0.15071645919834414,
+        "valence_rmse": 0.16201938965147542,
+        "arousal_ccc": 0.09141043613142814,
+        "arousal_mae": 0.16741740487275586,
+        "arousal_rmse": 0.18239739597324403,
+        "ccc_mean": 0.04177698193105302,
+        "mae_mean": 0.15906693203555,
+        "rmse_mean": 0.17220839281235972
+      }
+    },
+    {
+      "epoch": 20,
+      "train_loss": 1.5005905106663704,
+      "val_metrics": {
+        "valence_ccc": 0.023909508214039248,
+        "valence_mae": 0.1422553602005205,
+        "valence_rmse": 0.1583035206121783,
+        "arousal_ccc": 0.05109844514687035,
+        "arousal_mae": 0.16974535380159655,
+        "arousal_rmse": 0.18718848185193154,
+        "ccc_mean": 0.0375039766804548,
+        "mae_mean": 0.15600035700105852,
+        "rmse_mean": 0.1727460012320549
+      }
+    },
+    {
+      "epoch": 21,
+      "train_loss": 1.5660945719314947,
+      "val_metrics": {
+        "valence_ccc": 0.009212248136229333,
+        "valence_mae": 0.14628960684903206,
+        "valence_rmse": 0.1584855825189621,
+        "arousal_ccc": 0.049773276081278676,
+        "arousal_mae": 0.1801294955995775,
+        "arousal_rmse": 0.19924185052514076,
+        "ccc_mean": 0.029492762108754005,
+        "mae_mean": 0.16320955122430478,
+        "rmse_mean": 0.17886371652205144
+      }
+    },
+    {
+      "epoch": 22,
+      "train_loss": 1.4860538115931883,
+      "val_metrics": {
+        "valence_ccc": 0.00526436714778444,
+        "valence_mae": 0.151218376573055,
+        "valence_rmse": 0.16427481378759107,
+        "arousal_ccc": 0.05158091059251268,
+        "arousal_mae": 0.17556009802126116,
+        "arousal_rmse": 0.19194267786318256,
+        "ccc_mean": 0.028422638870148557,
+        "mae_mean": 0.1633892372971581,
+        "rmse_mean": 0.17810874582538683
+      }
+    },
+    {
+      "epoch": 23,
+      "train_loss": 1.468957758612103,
+      "val_metrics": {
+        "valence_ccc": -0.016441477552777337,
+        "valence_mae": 0.14852783708803116,
+        "valence_rmse": 0.1625225087327342,
+        "arousal_ccc": 0.04801009683926109,
+        "arousal_mae": 0.19655902924076205,
+        "arousal_rmse": 0.2152813064955896,
+        "ccc_mean": 0.015784309643241876,
+        "mae_mean": 0.1725434331643966,
+        "rmse_mean": 0.1889019076141619
+      }
+    },
+    {
+      "epoch": 24,
+      "train_loss": 1.4710243538849883,
+      "val_metrics": {
+        "valence_ccc": 0.0061636559605117765,
+        "valence_mae": 0.1416806055893821,
+        "valence_rmse": 0.15739978585512407,
+        "arousal_ccc": 0.04871175739155602,
+        "arousal_mae": 0.18598684091721812,
+        "arousal_rmse": 0.202131342262991,
+        "ccc_mean": 0.027437706676033895,
+        "mae_mean": 0.16383372325330012,
+        "rmse_mean": 0.17976556405905755
+      }
+    },
+    {
+      "epoch": 25,
+      "train_loss": 1.4577964883711603,
+      "val_metrics": {
+        "valence_ccc": -0.0016848001846923462,
+        "valence_mae": 0.15595725455111073,
+        "valence_rmse": 0.16743715083406818,
+        "arousal_ccc": 0.06278733520265369,
+        "arousal_mae": 0.18482282505400718,
+        "arousal_rmse": 0.20155449596143538,
+        "ccc_mean": 0.030551267508980667,
+        "mae_mean": 0.17039003980255896,
+        "rmse_mean": 0.18449582339775178
+      }
+    }
+  ],
+  "config": {
+    "project_root": "/root/autodl-tmp/music-emotion-project",
+    "manifest": "/root/autodl-tmp/music-emotion-project/data/manifest.csv",
+    "aligned_samples": "/root/autodl-tmp/music-emotion-project/data/aligned_samples.csv",
+    "feature_dir": "/root/autodl-tmp/music-emotion-project/data/features_mert95m",
+    "model": "b1",
+    "run_dir": "/root/autodl-tmp/music-emotion-project/runs/formal-b1-seed20260904-valonly",
+    "seed": 20260904,
+    "device": "cuda",
+    "max_tracks": 0,
+    "max_epochs": 100,
+    "patience": 12,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "evaluate_test": false
+  }
+}

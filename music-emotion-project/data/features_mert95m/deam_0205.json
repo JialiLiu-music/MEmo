@@ -1,0 +1,18 @@
+{
+  "track_id": "deam_0205",
+  "audio_path": "data/audio_wav/deam_0205.wav",
+  "model_name": "m-a-p/MERT-v1-95M",
+  "sample_rate_hz": 24000,
+  "window_sec": 10.0,
+  "hop_sec": 5.0,
+  "bin_sec": 1.0,
+  "timeline_rule": "bin i is [i*bin_sec, (i+1)*bin_sec), timestamp is bin center",
+  "layer_rule": "mean of the final four hidden-state tensors",
+  "feature_shape": [
+    45,
+    768
+  ],
+  "duration_sec": 45.061,
+  "device": "cuda",
+  "elapsed_sec": 0.4
+}

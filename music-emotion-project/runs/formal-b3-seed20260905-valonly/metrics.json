@@ -1,0 +1,366 @@
+{
+  "model": "b3",
+  "seed": 20260905,
+  "best_epoch": 10,
+  "val_metrics": {
+    "valence_ccc": 0.08249101511131401,
+    "valence_mae": 0.16712186990245695,
+    "valence_rmse": 0.17808453762723553,
+    "arousal_ccc": 0.1500455102462682,
+    "arousal_mae": 0.1761107552916773,
+    "arousal_rmse": 0.18443453119647119,
+    "ccc_mean": 0.1162682626787911,
+    "mae_mean": 0.17161631259706714,
+    "rmse_mean": 0.18125953441185336
+  },
+  "test_metrics": null,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.0666209939453335,
+      "val_metrics": {
+        "valence_ccc": 0.05325110400876691,
+        "valence_mae": 0.18452023582593088,
+        "valence_rmse": 0.19488819304012484,
+        "arousal_ccc": 0.043833946950936446,
+        "arousal_mae": 0.21197592352907504,
+        "arousal_rmse": 0.22171246620916552,
+        "ccc_mean": 0.04854252547985168,
+        "mae_mean": 0.19824807967750296,
+        "rmse_mean": 0.20830032962464518
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.9620274346735742,
+      "val_metrics": {
+        "valence_ccc": 0.03264001368792848,
+        "valence_mae": 0.15503008615586064,
+        "valence_rmse": 0.16198181643361045,
+        "arousal_ccc": 0.0721004538528148,
+        "arousal_mae": 0.20067310735823646,
+        "arousal_rmse": 0.21070562411219843,
+        "ccc_mean": 0.05237023377037164,
+        "mae_mean": 0.17785159675704856,
+        "rmse_mean": 0.18634372027290444
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.9014253694978025,
+      "val_metrics": {
+        "valence_ccc": 0.08762593528597555,
+        "valence_mae": 0.14743681804787728,
+        "valence_rmse": 0.15569638719241466,
+        "arousal_ccc": 0.06968530325684696,
+        "arousal_mae": 0.17056264067369123,
+        "arousal_rmse": 0.18433458021571558,
+        "ccc_mean": 0.07865561927141126,
+        "mae_mean": 0.15899972936078424,
+        "rmse_mean": 0.17001548370406513
+      }
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.8342208129664261,
+      "val_metrics": {
+        "valence_ccc": 0.04385054799927128,
+        "valence_mae": 0.15539854957211402,
+        "valence_rmse": 0.16270219774976855,
+        "arousal_ccc": 0.06116161442966381,
+        "arousal_mae": 0.18671938945208827,
+        "arousal_rmse": 0.19698490166375715,
+        "ccc_mean": 0.052506081214467544,
+        "mae_mean": 0.17105896951210114,
+        "rmse_mean": 0.17984354970676283
+      }
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.7933578776816528,
+      "val_metrics": {
+        "valence_ccc": 0.04864454910350633,
+        "valence_mae": 0.13542334218659707,
+        "valence_rmse": 0.1445788806003909,
+        "arousal_ccc": 0.0731048189251939,
+        "arousal_mae": 0.17098922222372023,
+        "arousal_rmse": 0.18287236664083698,
+        "ccc_mean": 0.06087468401435012,
+        "mae_mean": 0.15320628220515867,
+        "rmse_mean": 0.16372562362061394
+      }
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.7416109074321058,
+      "val_metrics": {
+        "valence_ccc": 0.01760965122676064,
+        "valence_mae": 0.13672320568753826,
+        "valence_rmse": 0.14606898662544066,
+        "arousal_ccc": 0.04784970061155036,
+        "arousal_mae": 0.17658793782034227,
+        "arousal_rmse": 0.18813539837156573,
+        "ccc_mean": 0.0327296759191555,
+        "mae_mean": 0.15665557175394026,
+        "rmse_mean": 0.1671021924985032
+      }
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.722307086818748,
+      "val_metrics": {
+        "valence_ccc": 0.025679840984183452,
+        "valence_mae": 0.14083125760718698,
+        "valence_rmse": 0.15062309170682583,
+        "arousal_ccc": 0.1056676904047509,
+        "arousal_mae": 0.18777452241028508,
+        "arousal_rmse": 0.19806194605846558,
+        "ccc_mean": 0.06567376569446717,
+        "mae_mean": 0.16430289000873605,
+        "rmse_mean": 0.1743425188826457
+      }
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.715550238887469,
+      "val_metrics": {
+        "valence_ccc": 0.07194719963046091,
+        "valence_mae": 0.12011494463489901,
+        "valence_rmse": 0.13223027281703487,
+        "arousal_ccc": 0.09461276945958455,
+        "arousal_mae": 0.19612705683515919,
+        "arousal_rmse": 0.20630506161720522,
+        "ccc_mean": 0.08327998454502274,
+        "mae_mean": 0.1581210007350291,
+        "rmse_mean": 0.16926766721712005
+      }
+    },
+    {
+      "epoch": 9,
+      "train_loss": 1.6877281769282289,
+      "val_metrics": {
+        "valence_ccc": 0.006171584427882466,
+        "valence_mae": 0.34315439373735457,
+        "valence_rmse": 0.353808251840453,
+        "arousal_ccc": 0.11456199542003413,
+        "arousal_mae": 0.19528159078571103,
+        "arousal_rmse": 0.20548264826497725,
+        "ccc_mean": 0.0603667899239583,
+        "mae_mean": 0.2692179922615328,
+        "rmse_mean": 0.2796454500527151
+      }
+    },
+    {
+      "epoch": 10,
+      "train_loss": 1.6543614876766999,
+      "val_metrics": {
+        "valence_ccc": 0.08249101511131401,
+        "valence_mae": 0.16712186990245695,
+        "valence_rmse": 0.17808453762723553,
+        "arousal_ccc": 0.1500455102462682,
+        "arousal_mae": 0.1761107552916773,
+        "arousal_rmse": 0.18443453119647119,
+        "ccc_mean": 0.1162682626787911,
+        "mae_mean": 0.17161631259706714,
+        "rmse_mean": 0.18125953441185336
+      }
+    },
+    {
+      "epoch": 11,
+      "train_loss": 1.6196035626861784,
+      "val_metrics": {
+        "valence_ccc": 0.07663697147959724,
+        "valence_mae": 0.18136515390248067,
+        "valence_rmse": 0.1906077693546972,
+        "arousal_ccc": 0.10744742016615946,
+        "arousal_mae": 0.2021717013370606,
+        "arousal_rmse": 0.211144745710396,
+        "ccc_mean": 0.09204219582287836,
+        "mae_mean": 0.19176842761977064,
+        "rmse_mean": 0.2008762575325466
+      }
+    },
+    {
+      "epoch": 12,
+      "train_loss": 1.5756608905891578,
+      "val_metrics": {
+        "valence_ccc": 0.07450689954472886,
+        "valence_mae": 0.12220784895602733,
+        "valence_rmse": 0.13249513050240855,
+        "arousal_ccc": 0.10273932972021642,
+        "arousal_mae": 0.18183015395076044,
+        "arousal_rmse": 0.19214137391217292,
+        "ccc_mean": 0.08862311463247263,
+        "mae_mean": 0.1520190014533939,
+        "rmse_mean": 0.16231825220729074
+      }
+    },
+    {
+      "epoch": 13,
+      "train_loss": 1.6083065784639783,
+      "val_metrics": {
+        "valence_ccc": 0.07451901850741237,
+        "valence_mae": 0.19643854103501765,
+        "valence_rmse": 0.2075601300044406,
+        "arousal_ccc": 0.12281864088013648,
+        "arousal_mae": 0.2090867593163444,
+        "arousal_rmse": 0.21824126318097115,
+        "ccc_mean": 0.09866882969377443,
+        "mae_mean": 0.20276265017568104,
+        "rmse_mean": 0.21290069659270586
+      }
+    },
+    {
+      "epoch": 14,
+      "train_loss": 1.5671705127590232,
+      "val_metrics": {
+        "valence_ccc": 0.049217640838422436,
+        "valence_mae": 0.1462773887380477,
+        "valence_rmse": 0.15978619432257068,
+        "arousal_ccc": 0.11439819991280656,
+        "arousal_mae": 0.1622191536570749,
+        "arousal_rmse": 0.1733476318899662,
+        "ccc_mean": 0.08180792037561449,
+        "mae_mean": 0.1542482711975613,
+        "rmse_mean": 0.16656691310626845
+      }
+    },
+    {
+      "epoch": 15,
+      "train_loss": 1.490751247232159,
+      "val_metrics": {
+        "valence_ccc": 0.09737719061987234,
+        "valence_mae": 0.15405735403539672,
+        "valence_rmse": 0.16491301489933843,
+        "arousal_ccc": 0.13264045511342346,
+        "arousal_mae": 0.18700428018646856,
+        "arousal_rmse": 0.19666374378627346,
+        "ccc_mean": 0.11500882286664789,
+        "mae_mean": 0.17053081711093265,
+        "rmse_mean": 0.18078837934280595
+      }
+    },
+    {
+      "epoch": 16,
+      "train_loss": 1.5296314892669518,
+      "val_metrics": {
+        "valence_ccc": 0.04780721297157147,
+        "valence_mae": 0.137558254924032,
+        "valence_rmse": 0.14604917276770837,
+        "arousal_ccc": 0.15779915468480002,
+        "arousal_mae": 0.1667488592887117,
+        "arousal_rmse": 0.17683670850050065,
+        "ccc_mean": 0.10280318382818575,
+        "mae_mean": 0.15215355710637185,
+        "rmse_mean": 0.16144294063410453
+      }
+    },
+    {
+      "epoch": 17,
+      "train_loss": 1.4938856630275648,
+      "val_metrics": {
+        "valence_ccc": 0.04908464878803164,
+        "valence_mae": 0.12312414136625105,
+        "valence_rmse": 0.13504785407454736,
+        "arousal_ccc": 0.11491158573452624,
+        "arousal_mae": 0.15346411207029897,
+        "arousal_rmse": 0.16427028695902518,
+        "ccc_mean": 0.08199811726127894,
+        "mae_mean": 0.138294126718275,
+        "rmse_mean": 0.14965907051678626
+      }
+    },
+    {
+      "epoch": 18,
+      "train_loss": 1.461981361111005,
+      "val_metrics": {
+        "valence_ccc": 0.04281553457164386,
+        "valence_mae": 0.12855388152022515,
+        "valence_rmse": 0.1393368635326624,
+        "arousal_ccc": 0.08229005588861671,
+        "arousal_mae": 0.16297992727448862,
+        "arousal_rmse": 0.17437079356562707,
+        "ccc_mean": 0.06255279523013028,
+        "mae_mean": 0.1457669043973569,
+        "rmse_mean": 0.15685382854914473
+      }
+    },
+    {
+      "epoch": 19,
+      "train_loss": 1.464112708138095,
+      "val_metrics": {
+        "valence_ccc": 0.0319775277805034,
+        "valence_mae": 0.14179395938352232,
+        "valence_rmse": 0.15098470797942531,
+        "arousal_ccc": 0.07265461241120412,
+        "arousal_mae": 0.1833177593446547,
+        "arousal_rmse": 0.19519907939097575,
+        "ccc_mean": 0.05231607009585376,
+        "mae_mean": 0.1625558593640885,
+        "rmse_mean": 0.17309189368520053
+      }
+    },
+    {
+      "epoch": 20,
+      "train_loss": 1.416399726851119,
+      "val_metrics": {
+        "valence_ccc": 0.08417342498057312,
+        "valence_mae": 0.14358266929705296,
+        "valence_rmse": 0.15517948051133462,
+        "arousal_ccc": 0.05488768638291907,
+        "arousal_mae": 0.16090964970569457,
+        "arousal_rmse": 0.1728627197444439,
+        "ccc_mean": 0.0695305556817461,
+        "mae_mean": 0.15224615950137377,
+        "rmse_mean": 0.16402110012788926
+      }
+    },
+    {
+      "epoch": 21,
+      "train_loss": 1.464937448501587,
+      "val_metrics": {
+        "valence_ccc": 0.04762809191625791,
+        "valence_mae": 0.13027328054510778,
+        "valence_rmse": 0.14107629194134666,
+        "arousal_ccc": 0.08815180604916907,
+        "arousal_mae": 0.15918130631889066,
+        "arousal_rmse": 0.16927274809248985,
+        "ccc_mean": 0.06788994898271349,
+        "mae_mean": 0.14472729343199922,
+        "rmse_mean": 0.15517452001691825
+      }
+    },
+    {
+      "epoch": 22,
+      "train_loss": 1.4382298058933682,
+      "val_metrics": {
+        "valence_ccc": 0.04045092045599895,
+        "valence_mae": 0.12984940908368556,
+        "valence_rmse": 0.13885084719907853,
+        "arousal_ccc": 0.15210064717628544,
+        "arousal_mae": 0.1598967832302855,
+        "arousal_rmse": 0.16965594815631066,
+        "ccc_mean": 0.09627578381614219,
+        "mae_mean": 0.14487309615698554,
+        "rmse_mean": 0.1542533976776946
+      }
+    }
+  ],
+  "config": {
+    "project_root": "/root/autodl-tmp/music-emotion-project",
+    "manifest": "/root/autodl-tmp/music-emotion-project/data/manifest.csv",
+    "aligned_samples": "/root/autodl-tmp/music-emotion-project/data/aligned_samples.csv",
+    "feature_dir": "/root/autodl-tmp/music-emotion-project/data/features_mert95m",
+    "model": "b3",
+    "run_dir": "/root/autodl-tmp/music-emotion-project/runs/formal-b3-seed20260905-valonly",
+    "seed": 20260905,
+    "device": "cuda",
+    "max_tracks": 0,
+    "max_epochs": 100,
+    "patience": 12,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "evaluate_test": false
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "model": "b0",
+  "seed": 20260903,
+  "best_epoch": null,
+  "train_mean": [
+    -0.04299690201878548,
+    -0.09587762504816055
+  ],
+  "val_metrics": {
+    "valence_ccc": 2.999395919707071e-15,
+    "valence_mae": 0.16889828689877065,
+    "valence_rmse": 0.1739027066336524,
+    "arousal_ccc": 5.008266948273437e-15,
+    "arousal_mae": 0.22440925901455264,
+    "arousal_rmse": 0.23216773221088993,
+    "ccc_mean": 4.003831433990254e-15,
+    "mae_mean": 0.19665377295666164,
+    "rmse_mean": 0.20303521942227118
+  },
+  "test_metrics": null,
+  "history": [],
+  "config": {
+    "project_root": ".",
+    "manifest": "data/manifest.csv",
+    "aligned_samples": "data/aligned_samples.csv",
+    "feature_dir": "data/features_mert95m",
+    "model": "b0",
+    "run_dir": "runs/formal-b0-seed20260903-valonly",
+    "seed": 20260903,
+    "device": "cuda",
+    "max_tracks": 0,
+    "max_epochs": 100,
+    "patience": 12,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "evaluate_test": false
+  }
+}

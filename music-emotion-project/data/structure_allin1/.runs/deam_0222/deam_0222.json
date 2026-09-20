@@ -1,0 +1,29 @@
+{
+  "path": "/root/autodl-tmp/music-emotion-project/data/audio_wav/deam_0222.wav",
+  "bpm": 58,
+  "beats": [14.18,15.29,16.34,17.44,18.49,19.45,20.48,21.41,22.52,23.56,24.6,25.73,26.76,27.83,28.86,29.87,30.85,31.77],
+  "downbeats": [17.44,21.41,25.73,29.87],
+  "beat_positions": [2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.06,
+      "label": "start"
+    },
+    {
+      "start": 0.06,
+      "end": 19.45,
+      "label": "chorus"
+    },
+    {
+      "start": 19.45,
+      "end": 45.02,
+      "label": "inst"
+    },
+    {
+      "start": 45.02,
+      "end": 45.07,
+      "label": "start"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+torch=2.5.0+cu121
+cuda_build=12.1
+cuda_available=True
+transformers=4.38.2
+accelerate=0.28.0
+numpy=2.2.6
+soundfile=0.14.0

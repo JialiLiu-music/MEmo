@@ -1,0 +1,22 @@
+{
+  "model": "s1",
+  "seed": 20260903,
+  "source_run_dir": "runs/formal-s1-seed20260903-valonly",
+  "split": "test",
+  "test_metrics": {
+    "valence_ccc": 0.00578461947006872,
+    "valence_mae": 0.2751501482600967,
+    "valence_rmse": 0.2812496275951465,
+    "arousal_ccc": 0.005986528582676935,
+    "arousal_mae": 0.18729803959528604,
+    "arousal_rmse": 0.19983843341469765,
+    "ccc_mean": 0.005885574026372827,
+    "mae_mean": 0.2312240939276914,
+    "rmse_mean": 0.24054403050492207
+  },
+  "config": {
+    "evaluate_only": true,
+    "source_best_epoch": 14,
+    "source_evaluate_test": false
+  }
+}

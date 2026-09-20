@@ -1,0 +1,22 @@
+{
+  "model": "s1_v2_equal",
+  "seed": 20260919,
+  "source_run_dir": "runs/s1-v2-equal-seed20260919",
+  "split": "test",
+  "test_metrics": {
+    "valence_ccc": 0.035647947331502415,
+    "valence_mae": 0.2447000262637933,
+    "valence_rmse": 0.2527090268830458,
+    "arousal_ccc": 0.036278143530944364,
+    "arousal_mae": 0.18870358529190223,
+    "arousal_rmse": 0.20745036813120046,
+    "ccc_mean": 0.03596304543122339,
+    "mae_mean": 0.21670180577784776,
+    "rmse_mean": 0.23007969750712315
+  },
+  "config": {
+    "evaluate_only": true,
+    "source_best_epoch": 11,
+    "source_evaluate_test": false
+  }
+}

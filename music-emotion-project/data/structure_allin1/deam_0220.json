@@ -1,0 +1,28 @@
+{
+  "path": "/root/autodl-tmp/music-emotion-project/data/audio_wav/deam_0220.wav",
+  "bpm": null,
+  "beats": [
+    2.52
+  ],
+  "downbeats": [],
+  "beat_positions": [
+    2
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.06,
+      "label": "start"
+    },
+    {
+      "start": 0.06,
+      "end": 44.75,
+      "label": "intro"
+    },
+    {
+      "start": 44.75,
+      "end": 45.07,
+      "label": "start"
+    }
+  ]
+}
